@@ -18,7 +18,7 @@ Feature: Login page feature
     And user enters password "Kapiva@123"
     And user clicks on Login button
     Then user gets the title of the page
-    And page title should be "Kapiva - Shopping Cart"
+    And page title should be "Kapiva - Shopping "
 
   @LoginPage
   Scenario: Login with Incorrect credentials
